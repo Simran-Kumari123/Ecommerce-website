@@ -1,0 +1,97 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation styles */
+.sec-nav {
+    background-color: rgb(218 132 18 / 96%);
+    color: white;
+    padding: 10px 20px;
+}
+
+.sec-nav .logo img {
+    height: 80px;
+    width: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.sec-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sec-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.sec-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Account section styles */
+.account-section {
+    background-color: white;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.account-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.account-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-section input {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.account-section button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+}
+
+.account-section button:hover {
+    background-color: #4cae4c;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* Error message styles */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}

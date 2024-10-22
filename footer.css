@@ -1,0 +1,47 @@
+/* footer.css */
+
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    min-height: 100vh; /* Ensure body takes full height */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed; /* Make the footer fixed */
+    bottom: 0; /* Align it to the bottom */
+    width: 100%; /* Make it full width */
+}
+
+.footer-content {
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Optional: Add padding to body to prevent content from hiding behind the footer */
+.content {
+    padding-bottom: 60px; /* Adjust based on footer height */
+}

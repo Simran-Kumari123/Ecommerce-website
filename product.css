@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(233, 233, 223);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sec-nav {
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+    background-color: rgb(218 132 18 / 96%);
+}
+
+.sec-nav .logo img {
+    height: 90px;
+    width: auto;
+    display: block;
+    padding-bottom:  20px;/
+}
+
+.sec-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.sec-nav ul li {
+    margin: 0 10px;
+}
+
+.sec-nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sec-nav input[type="text"] {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.sec-nav button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.product-section {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-card {
+    background-color: rgb(229, 232, 232);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    text-align: center;
+    width: 30%; /* Ensures three products per row */
+    margin-bottom: 20px; /* Spacing between rows */
+    height: 450px; /* Set a fixed height for all product cards */
+}
+
+.product-card img {
+    width: 100%; /* Ensure image takes full width of card */
+    height: 250px; /* Set a consistent height for all images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 5px;
+    
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-card p {
+    font-size: 1rem;
+    color: #171616;
+}
+
+.product-card button.add-to-cart {
+    background-color: #046fe1;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.product-card button.add-to-cart:hover {
+    background-color: #0fb12f;
+}
+
+
+/* Add any additional styles as needed */
