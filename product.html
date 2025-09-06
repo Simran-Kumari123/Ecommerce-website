@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+    <nav class="sec-nav">
+        <div>
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                    <a href="product.html">PRODUCT</a>
+                    <a href="contact.html">CONTACT</a>
+                    <a href="blog.html">BLOG</a>
+                    <a href="cart.html">CART</a>
+                    <a href="account.html">MY ACCOUNT</a>
+                    <input type="text" placeholder="search product">
+                    <button>Search</button>
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
+
+    <section class="product-section">
+        <div class="container">
+            <div class="product-card">
+                <img src="images/image0.png" alt="Makeup Kit">
+                <h3>Makeup Kit</h3>
+                <p>$500</p>
+                <p>Easy-to-use products.</p>
+                <button class="add-to-cart" data-name="Makeup Kit" data-price="500" data-image="image0.png">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/image1.png" alt="Mascara">
+                <h3>Mascara</h3>
+                <p>$250</p>
+                <p>Suitable for sensitive eyes.</p>
+                <button class="add-to-cart" data-name="Mascara" data-price="250" data-image="image1.png">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/image2.png" alt="Lipsticks">
+                <h3>Lipsticks</h3>
+                <p>$200</p>
+                <p>High-shine finish.</p>
+                <button class="add-to-cart" data-name="Lipsticks" data-price="200" data-image="image2.png">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/image3.png" alt="Nailpaint">
+                <h3>Nailpaint</h3>
+                <p>$150</p>
+                <p>Long-lasting.</p>
+                <button class="add-to-cart" data-name="Nailpaint" data-price="150" data-image="image3.png">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/image4.png" alt="Face Powder">
+                <h3>Face Powder</h3>
+                <p>$300</p>
+                <p>Reduce shine and oiliness.</p>
+                <button class="add-to-cart" data-name="Face Powder" data-price="300" data-image="image4.png">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/image5.png" alt="Absolute Cream">
+                <h3>Absolute Cream</h3>
+                <p>$350</p>
+                <p>Moisturizing ingredients.</p>
+                <button class="add-to-cart" data-name="Absolute Cream" data-price="350" data-image="image5.png">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <iframe src="footer.html" style="border: none; width: 100%; height: auto; min-height: 100px;"></iframe>
+    <script src="cart.js"></script> <!-- Link to the JavaScript file -->
+</body>
+
+</html>

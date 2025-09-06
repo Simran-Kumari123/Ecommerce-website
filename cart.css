@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif; /* Set the font for the page */
+    background-color: #f9f9f9; /* Light background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.sec-nav {
+    background-color: rgb(218, 132, 18, 0.96); /* Dark background for navigation */
+    color: white; /* White text color */
+    padding: 10px 0; /* Padding for navigation */
+}
+
+.sec-nav .logo img {
+    height: 80px;
+    width: auto;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sec-nav ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center align items vertically */
+}
+
+.sec-nav li {
+    margin: 0 15px; /* Space between links */
+}
+
+.sec-nav a {
+    color: white; /* White link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.sec-nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.cart-section {
+    max-width: 800px; /* Maximum width for the cart section */
+    margin: 50px auto; /* Center the section */
+    padding: 20px; /* Padding around the section */
+    background-color: white; /* White background for the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.cart-section h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark text color */
+}
+
+.cart-items {
+    margin-bottom: 20px; /* Space below cart items */
+}
+
+.cart-item {
+    display: flex; /* Use flexbox for item layout */
+    justify-content: space-between; /* Space out the items */
+    align-items: center; /* Center align items vertically */
+    padding: 10px; /* Padding for items */
+    border-bottom: 1px solid #ccc; /* Bottom border for separation */
+}
+
+.cart-item img {
+    max-width: 80px; /* Set a max width for images */
+    max-height: 80px; /* Set a max height for images */
+    object-fit: cover; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between image and text */
+}
+
+.item-name {
+    flex: 2; /* Adjust flex value for name */
+    color: #333; /* Dark text color */
+}
+
+.item-price {
+    width: 100px; /* Fixed width for price */
+    text-align: right; /* Align text to the right */
+    color: #333; /* Dark text color */
+}
+
+.item-quantity {
+    display: flex; /* Use flexbox for quantity layout */
+    align-items: center; /* Center align items vertically */
+}
+
+.item-quantity input {
+    width: 50px; /* Fixed width for quantity input */
+    margin-left: 10px; /* Space between label and input */
+}
+
+.remove-item {
+    background-color: #dc3545; /* Red background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 5px 10px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    flex-shrink: 0; /* Prevent button from shrinking */
+}
+
+.remove-item:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.cart-total {
+    text-align: right; /* Align total section text to the right */
+    margin-top: 20px; /* Space above total section */
+}
+
+.cart-total p {
+    font-size: 1.2rem; /* Font size for total text */
+}
+
+.checkout {
+    width: 100%; /* Full width for checkout button */
+    padding: 10px; /* Padding for button */
+    background-color: #28a745; /* Green background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Font size for button */
+}
+
+.checkout:hover {
+    background-color: #218838; /* Darker green on hover */
+}

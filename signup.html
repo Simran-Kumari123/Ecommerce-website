@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="account.css"> <!-- Link to the CSS file -->
+    <script src="validation.js" defer></script> <!-- Link to the JS file -->
+</head>
+<body>
+    <nav class="sec-nav">
+        <div>
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                    <a href="product.html">PRODUCT</a>
+                    <a href="contact.html">CONTACT</a>
+                    <a href="blog.html">BLOG</a>
+                    <a href="cart.html">CART</a>
+                    <a href="account.html">MY ACCOUNT</a>
+                    <input type="text" placeholder="search product">
+                    <button>Search</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="account-section">
+        <h2>Sign Up</h2>
+        <form id="signup-form" onsubmit=" return validate()">
+            <input type="text" id="username" placeholder="Username" >
+            <div class="error" id="usernameError"></div>
+
+            <input type="text" id="email" placeholder="Email" >
+            <div class="error" id="emailError"></div>
+
+            <input type="password" id="password" placeholder="Password" >
+            <div class="error" id="passwordError"></div>
+
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" >
+            <div class="error" id="confirmPasswordError"></div>
+
+            <button type="submit">Sign Up</button>
+        </form>
+        <p class="signup-link">Already have an account? <a href="account.html">Login here</a></p>
+    </section>
+    <iframe src="footer.html" style="border: none; width: 100%; height: auto; min-height: 100px;"></iframe>
+</body>
+</html>

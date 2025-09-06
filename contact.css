@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif; /* Set the font for the page */
+    background-color: #f9f9f9; /* Light background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.sec-nav {
+    background-color: rgb(218 132 18 / 96%); /* Dark background for navigation */
+    color: white; /* White text color */
+    padding: 10px 0; /* Padding for navigation */
+}
+
+.sec-nav .logo img {
+    height: 80px;
+    width: auto;
+    display: block;
+    padding-bottom: 10px;/ /* Width for logo */
+}
+
+.sec-nav ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center align items vertically */
+}
+
+.sec-nav li {
+    margin: 0 15px; /* Space between links */
+}
+
+.sec-nav a {
+    color: white; /* White link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.sec-nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.contact-section {
+    max-width: 600px; /* Maximum width for the contact form */
+    margin: 50px auto; /* Center the section */
+    padding: 20px; /* Padding around the section */
+    background-color: white; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.contact-section h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark text color */
+}
+
+.contact-section p {
+    text-align: center; /* Center the paragraph */
+    color: #555; /* Medium text color */
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding for inputs */
+    margin: 10px 0; /* Margin for spacing */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.contact-section button {
+    width: 100%; /* Full width for button */
+    padding: 10px; /* Padding for button */
+    background-color: #28a745; /* Green background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Font size for button */
+}
+
+.contact-section button:hover {
+    background-color: #218838; /* Darker green on hover */
+}

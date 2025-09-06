@@ -1,0 +1,238 @@
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo img {
+    height: 100px; 
+    width: auto;  
+    display: block; 
+}
+.logo {
+    position: absolute; 
+    top: 10px;
+    left: 20px;
+    padding: 10px; 
+}
+.sec-nav .logo img {
+    height: 80px; 
+    width: auto;  
+    display: block;
+    padding-top: 10px;
+}
+.sec-nav
+{
+    color: white;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+    background-color: rgb(218 132 18 / 96%);
+}
+.sec-nav ul li a{
+    margin-inline: 22px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.sec-nav ul li{
+    font-size: large;
+    padding-top: 20px;
+}
+.sec-nav ul{
+    list-style: none;
+}
+.sec-nav ul input{
+   width: 100px;
+   height: 20px;
+   border:  2px solid black;
+   border-radius: 5px;
+   margin-left: 60px;
+   background-color: azure;
+   
+}
+.sec-nav ul button{
+    border: 2px solid black;
+    border-radius: 3px;
+    color: rgb(2, 34, 43);
+}
+
+
+/*here all css for home page and haome page items*/
+.main-img img {
+    width: 100%;
+    height: 450px;
+     
+ }
+
+ /* Basic reset and body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Styling for the product section */
+.product-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Space out products evenly */
+    flex-wrap: wrap; /* Ensures products wrap on smaller screens */
+}
+
+/* Product card styling */
+
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    .product-card {
+        width: 48%; /* Two products per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .product-card {
+        width: 100%; /* One product per row on small mobile devices */
+    }
+}
+
+
+/*here css strt for blog section*/
+/* General reset and body styling */
+/* Blog Section Styling */
+.blog-section {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    
+}
+
+.blog-section h2 {
+   
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Container for blog cards */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Blog card styling */
+.blog-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%; /* Three blog posts per row */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.blog-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Blog content styling */
+.blog-content {
+    padding: 15px;
+    text-align: left;
+}
+
+.blog-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.blog-content p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* 'Read More' button styling */
+.read-more {
+    color: #fff;
+    background-color: #ff6347;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #ff4500;
+}
+
+/* Responsive styling for tablets */
+@media (max-width: 768px) {
+    .blog-card {
+        width: 48%; /* Two blog posts per row on medium screens */
+    }
+}
+
+/* Responsive styling for mobile screens */
+@media (max-width: 480px) {
+    .blog-card {
+        width: 100%; /* One blog post per row on small screens */
+    }
+}
+/*fotter section*/
+footer {
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* White text color */
+    padding: 20px; /* Padding around the footer */
+    text-align: center; /* Center-align text */
+}
+
+.footer-content {
+    max-width: 1200px; /* Maximum width for content */
+    margin: 0 auto; /* Center the footer content */
+}
+
+.footer-links {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+    margin: 10px 0 0; /* Margin for spacing */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the links */
+}
+
+.footer-links li {
+    margin: 0 15px; /* Space between links */
+}
+
+.footer-links a {
+    color: white; /* White link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+

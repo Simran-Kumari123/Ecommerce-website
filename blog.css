@@ -1,0 +1,119 @@
+/* blog.css */
+
+body {
+    font-family: Arial, sans-serif; /* Set the font for the body */
+    margin: 0; /* Remove default margin */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+.sec-nav {
+    background-color: rgb(218 132 18 / 96%); /* Dark background for navigation */
+    color: white; /* White text color */
+    padding: 10px 0; /* Padding for navigation */
+}
+
+.sec-nav .logo img {
+    height: 80px;
+    width: auto;
+    display: block;
+    padding-top: 10px;/* Width for logo */
+}
+
+.sec-nav ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center align items vertically */
+}
+
+.sec-nav li {
+    margin: 0 15px; /* Space between links */
+}
+
+.sec-nav a {
+    color: white; /* White link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.sec-nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.blog-section {
+    padding: 20px; /* Padding around the blog section */
+}
+
+.blog-section h2 {
+    text-align: center; /* Center align the heading */
+    color: #333; /* Dark text color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space items evenly */
+    flex-wrap: wrap; /* Allow wrapping to next line */
+    gap: 20px; /* Space between cards */
+}
+
+.blog-card {
+    background-color: white; /* White background for each card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: calc(33% - 20px); /* Card width accounting for gap */
+    min-width: 250px; /* Minimum width */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.blog-card:hover {
+    transform: translateY(-5px); /* Slightly lift card on hover */
+}
+
+.blog-card img {
+    width: 100%; /* Full width of the card */
+    border-top-left-radius: 8px; /* Rounded corners for top */
+    border-top-right-radius: 8px; /* Rounded corners for top */
+}
+
+.blog-content {
+    padding: 15px; /* Padding inside the card */
+}
+
+.blog-content h3 {
+    margin: 10px 0; /* Margin for heading */
+}
+
+.blog-content p {
+    color: #555; /* Medium text color */
+}
+
+.read-more {
+    display: inline-block; /* Block for better styling */
+    margin-top: 10px; /* Margin above link */
+    color: #007BFF; /* Link color */
+    text-decoration: none; /* Remove underline */
+    border: 1px solid #007BFF; /* Add border for button effect */
+    padding: 8px 15px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background change */
+}
+
+.read-more:hover {
+    text-decoration: underline; /* Underline on hover */
+    background-color: #007BFF; /* Background change on hover */
+    color: white; /* Text color change on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .blog-card {
+        width: calc(50% - 20px); /* Adjust card width for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-card {
+        width: 100%; /* Full width for small screens */
+    }
+}
